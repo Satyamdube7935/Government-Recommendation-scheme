@@ -1,0 +1,29 @@
+{
+  "name": "scheme-recommender-server",
+  "version": "1.0.0",
+  "description": "AI-based Government Scheme Eligibility & Recommendation API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seed/seedSchemes.js"
+  },
+  "keywords": [
+    "mern",
+    "government-schemes",
+    "eligibility"
+  ],
+  "license": "MIT",
+  "author": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
